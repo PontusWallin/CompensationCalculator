@@ -1,0 +1,10 @@
+.calculate-button{
+  border: none;
+  color: white;
+  padding: 18px 40px;
+  margin: 16px 0;
+  font-size: 20px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #911812 0%, #E1261C 100%);
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+}

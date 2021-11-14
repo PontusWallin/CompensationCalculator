@@ -1,0 +1,23 @@
+<form action="#">
+  <h1>Compensation Calculator</h1>
+  <label class="input-label" for="average-income">Average Income</label>
+  <span class="input-flex">
+      <input type="text" id="average-income"
+             (keyup)="onIncomeInput($event)">
+      <span class="unit">€</span>
+    </span>
+  <label class="input-label" for="days-on-sick-leave">Days on sick-leave</label>
+  <div class="input-flex">
+    <input type="text" id="days-on-sick-leave"
+           (keyup)="onSickLeaveInput($event)">
+    <span class="unit">days</span>
+  </div>
+
+  <div class="checkbox-container">
+    <input type="checkbox" id="has-tuberculosis" value="has-tuberculosis-value"
+           (change)="doTuberculosisSelection($event)">
+    <label class="checkbox-label" for="has-tuberculosis">I have tuberculosis</label>
+  </div>
+
+  <app-calculate-button (calculationStarted)="doCalculation()"></app-calculate-button>
+</form>

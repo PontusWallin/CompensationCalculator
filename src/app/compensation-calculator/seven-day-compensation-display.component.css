@@ -1,0 +1,50 @@
+*{
+  font-weight: 500;
+}
+
+.widget {
+  width: 320px;
+  color: #111317;
+  background:
+    linear-gradient(135deg, transparent 12px, white 0) top left,
+    linear-gradient(-135deg, transparent 12px, white 0) top right,
+    linear-gradient(45deg, transparent 12px, white 0) bottom left,
+    linear-gradient(-45deg, transparent 12px, white 0) bottom right;
+  background-size: 51% 51%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 24px;
+  padding: 64px 0;
+}
+
+p {
+  text-align: center;
+}
+
+.compensation-grid {
+  display: grid;
+  grid-gap: 18px;
+  grid-template-areas: ". ."
+                        "comp-total comp-total";
+  border-top: 1px solid #f0f3f7;
+}
+
+.sevenDayCompensationLabel{
+  margin: 0;
+}
+
+.sevenDayCompensation{
+  margin: 4px 0 0 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+
+}
+
+.compensation-total {
+  border-top: 1px solid #f0f3f7;
+  padding-top: 16px;
+  grid-area: comp-total;
+  display: flex;
+  flex-direction: column;
+}

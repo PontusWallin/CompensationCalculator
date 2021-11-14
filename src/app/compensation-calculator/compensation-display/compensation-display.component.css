@@ -1,0 +1,28 @@
+p {
+  text-align: center;
+}
+
+.compensation-time {
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.comp-days {
+  font-weight: bold;
+  margin-top: -14px;
+}
+
+.comp-value{
+  font-weight: bold;
+  margin-top: -4px;
+  margin-bottom: -10px;
+}
+
+.allowance{
+  font-size: 12px;
+  line-height: 15px;
+  padding: 0 8px;
+  color: #7A818E;
+}

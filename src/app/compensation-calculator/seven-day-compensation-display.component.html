@@ -1,0 +1,13 @@
+<div class="widget">
+
+  <app-calculator-form></app-calculator-form>
+
+  <div class="compensation-grid">
+    <app-compensation-display [compensator]="employer"></app-compensation-display>
+    <app-compensation-display [compensator]="healthInsurance"></app-compensation-display>
+    <div class="compensation-total">
+      <p class="sevenDayCompensationLabel">Compensation total for 7 days (net)</p>
+      <p class="sevenDayCompensation">{{sevenDayCompensationNet | currency:'EUR':'':'1.2':'fr'}}€</p>
+    </div>
+  </div>
+</div>

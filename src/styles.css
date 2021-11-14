@@ -1,0 +1,18 @@
+html {
+  color: white;
+  background-color: #2B303A
+}
+
+p, button, input, label, ul {
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+
+a:link {
+  color: red;
+}
